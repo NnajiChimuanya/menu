@@ -148,13 +148,7 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: 'Arvo', serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Radio Canada', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
-font-family: 'Source Sans Pro', sans-serif;
+ 
 }
 .underline {
   width: 5rem;
