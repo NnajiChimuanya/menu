@@ -24,18 +24,16 @@ function App() {
   }
  
   return (
-    <div className="container">
-     <div className='header'>
-      <h2>Hola</h2>
-      <Category categories={categories} filterCategory={filterCategory} />
-     </div>
-
-     
-      <div className='menu'>
-        
+    <main>
+      <section className="menu section">
+        <div className="title">
+          <h2>our menu</h2>
+          <div className="underline"></div>
+        </div>
+        <Category categories={categories} filterCategory={filterCategory} />
         <Menu items={menuItems} />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
